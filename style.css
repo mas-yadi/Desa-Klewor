@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    background-image: url('images/waduk.jpeg');
+    background-image: url('images/balai.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ header h1 {
 
 /* HEADER UNTUK PROFIL */
 .header-profil {
-    background-image: url('images/waduk.jpeg'); /* Ganti gambar sesuai file Mas Yadi */
+    background-image: url('images/balai.jpg'); /* Ganti gambar sesuai file Mas Yadi */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ header h1 {
 
 /* HEADER UNTUK POTENSI */
 .header-potensi {
-    background-image: url('images/waduk.jpeg'); /* Ganti sesuai kebutuhan */
+    background-image: url('images/balai.jpg'); /* Ganti sesuai kebutuhan */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -266,7 +266,7 @@ header h1 {
 .logo {
     position: absolute;
     top: 90px;
-    left: 50px;
+    left: 30px;
     width: 160px;      /* Ukuran logo */
     height: auto;
     border-radius: 8px;
@@ -281,6 +281,10 @@ header h1 {
 
 .card:hover img {
     transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
 
 nav ul li a.active {

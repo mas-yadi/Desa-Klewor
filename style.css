@@ -85,15 +85,15 @@ nav ul li a:hover {
 }
 
 .hero {
-    background-image: url('images/tb5.png'); /* ganti dengan path gambar milik Mas Yadi */
-    background-size: cover;
+    background-image: url('images/tb5.png');
+    background-size: 800px 900px; /* Atur ukuran sendiri */
     background-position: center;
     background-repeat: no-repeat;
-    padding: 50px 20px; /* bisa disesuaikan */
+    padding: 100px 220px;
     text-align: center;
     margin-top: 20px;
     font-size: 1.1em;
-    color: white; /* tambahkan agar teksnya tetap terlihat */
+    color: white;
 }
 
 .intro {
@@ -288,8 +288,8 @@ header h1 {
 }
 
 nav ul li a.active {
-    color: #001aff; /* warna kuning emas misalnya */
-    border-bottom: 2px solid #001aff;
+    color: #09ff00; /* warna kuning emas misalnya */
+    border-bottom: 2px solid #09ff00;
 }
 
 .judul-utama {
@@ -302,7 +302,7 @@ nav ul li a.active {
     margin: 40px 0;
 
     /* Warna gradasi */
-    background: linear-gradient(to right, #0b0ff5, #007be0);
+    background: linear-gradient(to right, #00ff22, #09ff00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 

@@ -84,15 +84,16 @@ nav ul li a.active {
 /* Hero Section */
 .hero {
     background-image: url('images/blue.png');
-    background-size: 40% auto;
-    background-position: center;
+    background-size: 100% 100%; /* gambar akan dipaksa isi penuh sesuai ukuran konten */
     background-repeat: no-repeat;
-    padding: 100px 90px;
+    background-position: center;
+    padding: 40px 30px;
     text-align: center;
     margin-top: 45px;
     font-size: 1.4em;
     color: white;
 }
+
 
 /* Konten Umum */
 .intro {

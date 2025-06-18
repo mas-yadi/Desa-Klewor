@@ -35,6 +35,18 @@ header, .header-profil, .header-potensi {
     text-align: center;
 }
 
+.hero h2 {
+    font-size: 2em; /* Ubah sesuai kebutuhan */
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.6em; /* Ubah sesuai kebutuhan */
+    font-weight: 400;
+    margin-top: 0;
+}
+
 header {
     padding: 70px 0;
 }
@@ -291,7 +303,7 @@ footer {
     position: absolute;
     top: 150px;
     left: 30px;
-    width: 140px;
+    width: 130px;
     height: auto;
     border-radius: 8px;
     z-index: 10;

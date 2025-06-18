@@ -85,14 +85,14 @@ nav ul li a:hover {
 }
 
 .hero {
-    background-image: url('images/tb5.png');
+    background-image: url('images/tb7.png');
     background-size: 800px 900px; /* Atur ukuran sendiri */
     background-position: center;
     background-repeat: no-repeat;
-    padding: 100px 220px;
+    padding: 180px 220px;
     text-align: center;
     margin-top: 20px;
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: white;
 }
 
@@ -288,8 +288,8 @@ header h1 {
 }
 
 nav ul li a.active {
-    color: #09ff00; /* warna kuning emas misalnya */
-    border-bottom: 2px solid #09ff00;
+    color: #1100ff; /* warna kuning emas misalnya */
+    border-bottom: 2px solid #2600ff;
 }
 
 .judul-utama {
@@ -302,7 +302,7 @@ nav ul li a.active {
     margin: 40px 0;
 
     /* Warna gradasi */
-    background: linear-gradient(to right, #00ff22, #09ff00);
+    background: linear-gradient(to right,rgb(11, 252, 139), #0bc029);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
